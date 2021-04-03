@@ -1,0 +1,7 @@
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\bin\Debug\Example_005.exe.config
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\bin\Debug\Example_005.exe
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\bin\Debug\Example_005.pdb
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\obj\Debug\Example_005.csprojAssemblyReference.cache
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\obj\Debug\Example_005.csproj.CoreCompileInputs.cache
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\obj\Debug\Example_005.exe
+D:\SkillboxMyMaterial\Skillbox_c#\5\Homework5_functions\Example_005\obj\Debug\Example_005.pdb
