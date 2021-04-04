@@ -16,6 +16,25 @@ namespace task3
 
         static void Main(string[] args)
         {
+            string text = "ПППОООГГГООООДДДААА";
+            char[] letters = ReturnStringWithoutDuplicate(text);
+
+            Console.ReadKey();
+        }
+
+
+        static char[] ReturnStringWithoutDuplicate(string s)
+        {
+            char[] letters = new char[s.Length]; //массив символов из входящей строки
+            for (int i = 0; i < letters.Length; i++)    //заполняем массив символов
+            {
+                letters[i] = s[i];
+            }
+
+
+
+            return letters;
+
         }
     }
 }
