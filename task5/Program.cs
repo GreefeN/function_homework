@@ -19,9 +19,26 @@ namespace task5
 
         static void Main(string[] args)
         {
-            
+            uint[] nm1 = { 2, 5 };
+            uint[] nm2 = { 1, 2 };
+
+            Console.WriteLine(FunctionOfAccerman(nm1[0], nm1[1])); //13
+            Console.WriteLine(FunctionOfAccerman(nm2[0], nm2[1])); //4
+            Console.ReadKey();
         }
 
-
+        /// <summary>
+        /// рекурсивная функция Аккермана, вычисляет число на основе двух введенных натуральных чисел
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="m"></param>
+        /// <returns></returns>
+        static uint FunctionOfAccerman(uint n, uint m)
+        {
+            if (n == 0) return m + 1;   //базовый случай, выхода из рекурсии
+            else if (n != 0 && m == 0) return FunctionOfAccerman(n - 1, 1); //вызов функции аккермана при m = 0
+            else if (n > 0 && m > 0) return FunctionOfAccerman(n - 1, FunctionOfAccerman(n, m - 1)); //вызов функции с m и n больше 0
+            else return 0; //выход из функции, при остальных не учтённых выше условиях
+        }
     }
 }
